@@ -52,11 +52,10 @@ a{
     align-items: center;
     height: 500px;
     padding: 30px 80px;
-    background-image: url('../imagens/tokyotocha.jpg');
+    background-image: url('../imagens/img-500.jpeg');
     background-repeat: no-repeat;
     background-position: center;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    background-size: 100%;
 }
 
 #inicio div {
@@ -150,12 +149,34 @@ footer {
 }
 
 @media (max-width: 1000px) {
-    #inicio img {
-        display: none;
+    #inicio {
+        padding: 10px 40px;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        background-image: url("../imagens/img-800-500.jpeg");
+        background-size: 100%;
     }
 }
 
 @media (max-width: 800px) {
+    h1{
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size:15px;
+    }
+    
+    p{
+        font-size: 10px;
+    }
+
+    #modalidade div h1 {
+        font-size: 15px;
+    }
+    
+
     header {
         padding: 40px 40px 40px 40px;
     }
@@ -163,11 +184,32 @@ footer {
     nav ul li {
         padding: 0 10px;
         list-style: none;
-        font-size: 18px; 
+        font-size: 10px; 
     }
     
     #inicio {
         padding: 10px 40px;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        background-image: url("../imagens/img-800-500.jpeg");
+        background-size: 100%;
+    }
+
+    #inicio div button {
+        width: 75px;
+        height: 35px;
+        border-radius: 90px;
+        border: none;
+        margin: 20px 0;
+        font-size: 10px;
+        font-weight: 600;
+        background: #C14649;
+        color: #fff
+    }
+
+    #inicio div p {
+        font-size: 10px;
     }
 
     #inicio div {
