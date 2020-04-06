@@ -215,6 +215,16 @@ footer {
         padding: 10px 40px;
     }
 
+    #inicio div h1 {
+        font-size: 15px;
+        color: black;
+    }
+
+    #inicio div p {
+        font-size: 10px;
+        color: black;
+    }
+
     #inicio div {
         padding-right: 0px;
     }
