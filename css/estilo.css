@@ -58,8 +58,6 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 #inicio div {
@@ -144,7 +142,7 @@ footer {
     justify-content: center;
     height: 80px;
     background-image: linear-gradient(-90deg, rgb(70, 12, 12), #aa0c0c);
-    color: black;
+    color: white;
     font-size: 20px;
     border-top: 1px solid black;
 }
